@@ -1,5 +1,4 @@
 console.log('Olá mundo!');
-
 // Criando um novo elemento 
 let novoElemento = document.createElement('h1');
 // Alterando o conteúdo de texto do elemento
@@ -8,11 +7,9 @@ novoElemento.innerText = 'Hello, World! English! (Inglês) Ok?!';
 let elementoBody = document.body;
 // Colocando o novo elemento no body
 elementoBody.appendChild(novoElemento);
-
 // Deixando bonito agora
 novoElemento.style.backgroundColor = 'blue';
 novoElemento.style.color = 'yellow';
-
 // Criado por IA)
 let paragrafo = document.createElement('p');
 paragrafo.innerText = 'Este parágrafo foi criado com JavaScript usando criatividade!';
